@@ -76,3 +76,71 @@
 ## 並行性
 ## セッションステート
 ## 分散ストラテジー
+
+# アプリケーションアーキテクチャ
+|   | 全体概要  | 共通設計指針  | 共通処理パターン指針  | 処理パターン固有指針  |
+|---|---|---|---|---|
+| ベースパターン  |   |   |   |   |
+| エンタープライズアプリケーションパターン  |   |   |   |   |
+
+|   | 全体概要  | 共通設計指針  | 共通処理パターン指針  | 処理パターン固有指針  |
+|---|---|---|---|---|
+| ゲートウェイ  |   |   |   |   |
+| マッパー  |   |   |   |   |
+| レイヤースーパータイプ  |   |   |   |   |
+| セパレートインタフェース  |   |   |   |   |
+| レジストリ  |   |   |   |   |
+| バリューオブジェクト  |   |   |   |   |
+| マネー  |   |   |   |   |
+| スペシャルケース  |   |   |   |   |
+| プラグイン  |   |   |   |   |
+| サービススタブ  |   |   |   |   |
+| レコードセット  |   |   |   |   |
+
+|   | 全体概要  | 共通設計指針  | 共通処理パターン指針  | 処理パターン固有指針  |
+|---|---|---|---|---|
+| ドメインロジックパターン  |   |   |   |   |
+| データソースのアーキテクチャに関するパターン  |   |   |   |   |
+| オブジェクトリレーショナル振る舞いパターン  |   |   |   |   |
+| オブジェクトリレーショナル構造パターン  |   |   |   |   |
+| オブジェクトリレーショナルメタデータマッピングパターン  |   |   |   |   |
+| Webプレゼンテーションパターン  |   |   |   |   |
+| 分散パターン  |   |   |   |   |
+| オフライン並行性パターン  |   |   |   |   |
+| セッションステートパターン  |   |   |   |   |
+
+# インフラストラクチャアーキテクチャ
+## 7つのベストプラクティス
++ 故障に備えた設計で障害を回避
++ コンポーネント間を疎結合で柔軟に
++ 伸縮自在性を実装
++ すべての層でセキュリティを強化
++ 制約を恐れない(ITリソース量の制限などオンプレミスとは考え方を変える)
++ 処理の並列化を考慮
++ さまざまなストレージの選択肢を活用
+
+## AWS Well-Architected Framework
+### Pillar
++ Security
++ Reliability
++ Performance Efficiency
++ Cost Optimization
+#### General Design Principles
++ Stop guessing your capacity needs
++ Test systems at production scale
++ Lower the risk of architecture change
++ Automate to make architectural experimentation easier
++ Allow for evolutionary architecture
+
+## Architecture for the AWS Cloud
+### Design Principle
++ Scalability
++ Disposable Resources Instead of Fixed Servers
++ Automation
++ Loose Coupling
++ Services, Not Servers
++ Databases
++ Removing Single Points of Failure
++ Optimize for Cost
++ Caching
++ Security
