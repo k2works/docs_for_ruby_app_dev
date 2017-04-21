@@ -31,12 +31,12 @@
 1. 階層的に考える
 
 ### アジャイルの目的
-Deliver Something of Value Every Week
-(価値ある成果を毎週届ける)
-『アジャイルサムライ』
-The professional goal of every software developer and every development team is to deliver the highest possible value to employers and customers
-(プロの開発者のゴールは、可能な限り高品質の製品を雇い主や顧客に納品することである。)
-『アジャイルソフトウエア開発の奥義』
+>Deliver Something of Value Every Week  
+>(価値ある成果を毎週届ける)  
+>『アジャイルサムライ』  
+>The professional goal of every software developer and every development team is to deliver the highest possible value to employers and customers  
+>(プロの開発者のゴールは、可能な限り高品質の製品を雇い主や顧客に納品することである。)  
+>『アジャイルソフトウエア開発の奥義』
 
 ### アジャイルアライアンス
 #### ４の価値
@@ -60,13 +60,13 @@ The professional goal of every software developer and every development team is 
 + チームがもっと効率を高めることができるかを定期的に振り返り、それに基づいて自分たちのやり方を最適に調整します。
 
 ### アジャイルウェイ
->The “agile way”(「アジャイルの道」)
->・Are we delivering something of value every week?
->(毎週、価値ある成果を届けられているか？)
->・Are we striving to continuously improve?
->(たゆまぬ改善のための努力を惜しまず続けているか？)
->If you can answer yes to both those questions,you’re being agile
->(この２つの問いへの答えが「イエス」なら、君はアジャイルだ。)
+>The “agile way”(「アジャイルの道」)  
+>・Are we delivering something of value every week?  
+>(毎週、価値ある成果を届けられているか？)  
+>・Are we striving to continuously improve?  
+>(たゆまぬ改善のための努力を惜しまず続けているか？)  
+>If you can answer yes to both those questions,you’re being agile  
+>(この２つの問いへの答えが「イエス」なら、君はアジャイルだ。)  
 >『アジャイルサムライ』
 
 ### プログラミング
